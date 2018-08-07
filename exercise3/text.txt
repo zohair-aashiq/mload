@@ -1,0 +1,67 @@
+Group Members: 	Zaid Ur-Rehman	3955xxx
+		Zohair Aashiq	3955xxx
+
+Question 1:
+Program's name: Q1.py
+
+Question 2:
+Algorithms implemented: Variable Neighbourhood Descent and Tabu Search
+Program's names: VND is Q2_1.py & Tabu Search is Q2_2.py
+	
+Runtime Comparison:
+	factoring1.dimacs    factoring2.dimacs    random_ksat1.dimacs    random_ksat2.dimacs    random_ksat3.dimacs    subsetsum_random.dimacs
+URW		4.748		0.198			0.00066			0.00103			0.00149		2.487
+VND		68.54		1.019			0.00246			0.00118			0.00163		10.003
+Tabu		107.78		0.143			0.00210			0.00255			0.00279		31.10
+
+The Uniform Random Walk algorithm takes the smallest time because it does not search 
+the neighbours of the current possible solution, but for a bounded number of iterations,
+this algorithm also fails to find an optimal solution.
+
+Variable Neighbourhood Descent (VND) and Tabu Search perform in a similar fashion as 
+both explore the neighbours of current solution and find the best new solution among 
+these neighbours. The only difference is that Tabu maintains a list of already explored
+neighbours.
+VND performs faster because it does not check if the new neighbour has already been 
+explored. However Tabu Search uses more memory as compared to VND. Tabu Search also 
+spends more time maintaining the Tabu List. Conclusively, VND performs faster, uses 
+less memory and its failure rate is lower. Hence VND is best of the three algorithms.
+
+Question 3:
+Program's name: Q3.py
+
+
+----------------------------
+Feedback:
+Question1
+>>How long we worked on it.
+Question 1 took us almost 12 hours to understand and slove .
+
+>> What we learned?
+We learned a lot about python, about its functions,its labraries
+ and most important thing is we have now much more deep 
+understanding of Algorithms and their implementations.
+
+>>Imporvement
+In Question 1,the file reading and converting it into usable format 
+consumed most of our time. It would be better if a library function 
+was already given to get the data easy-to-use format because in our 
+understanding, applying the logic is more important than formatting 
+the data
+
+
+Question2
+>>How long we worked on it.
+Question 2 took us almost 6 hours to implement.
+
+
+Question3
+>> How long we worked on it.
+Question 2 took us almost 15 hours to slove.
+>> Imporvement			 
+Like Question 1,it was more time consuming to format the data and convert 
+it into proper form. Most of our time was spent in formatting the data in 
+more usable form. It was worth much more than 10 points. It would be much 
+ easier to apply the logic and algorithm in this question if data was 
+already in proper form. We spent all the time in formatting and didn't get
+to apply any solution-finding algorithm to this problem.

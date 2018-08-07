@@ -1,0 +1,10 @@
+pcs-file = saps/saps-params.pcs
+runObj = QUALITY
+target_run_cputime_limit = 10
+#cputime-limit = 600
+wallclock-limit = 86400
+instance_file = train-e.txt
+test_instance_file = test-e.txt
+algo-exec = python SAPSWrapper.py
+output-dir = Output24hr
+feature_file = features.csv
